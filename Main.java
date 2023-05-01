@@ -1,150 +1,130 @@
 import java.util.Scanner;
 
 public class Main {
-
     public static void main(String[] args) {
 
         Scanner s = new Scanner(System.in);
 
         //Question 1
-        System.out.println("Please enter the first number");
-        int num1 = s.nextInt();
-        System.out.println("Please enter the second number");
-        int num2 = s.nextInt();
-
-        int sum = num1 + num2, sub = num1 - num2, mult = num1 * num2;
-        double div = num1 / num2, mod = num1 % num2;
-
-        System.out.println(num1 + "+" + num2 + "=" + sum);
-
-        //Print Hello
-//        System.out.println("Hello world!");
-//        System.out.println("§Hello Tuwaiq§");
-//        System.out.println("My name is Mohammed");
-
-        //Variables NO(reserved words, Numbers, Spi)
-//        int a = 4 , b = 2 , c = 1;
-//        double x = 0.5 , y = 2.5;
-//        boolean t = true , f = false;
-//        String firstname = "Mohammed" , lastname = "Alajaji";
-//        System.out.println("a = " + a + " b = " + b + " c = " + c);
-//        System.out.println("x = " + x + " y = " + y );
-//        System.out.println("My name is " + firstname + " " + lastname);
-//        System.out.println(t);
-//        System.out.println("the length of the first name is " + firstname.length());
-//        System.out.println("your first name start with " + firstname.charAt(0));
-//        System.out.println("your first name end with " + firstname.charAt(firstname.length()-1));
-//        System.out.println("does you name stats with Mo? " + firstname.startsWith("Mo"));
-//        System.out.println("does you name ends with eb? " + firstname.endsWith("eb"));
-
-        // operators  ( + - * / ) ( > < >= <= != == )
-//        int sum,  mult, sub, div;
-//        sum = a+b+c;
-//        mult = a*b*c;
-//        sub = a-b-c;
-//        div = a/b/c;
+//        System.out.println("Please enter the first number");
+//        int num1 = s.nextInt();
+//        System.out.println("Please enter the second number");
+//        int num2 = s.nextInt();
 //
-//        System.out.println("the sum is = " + sum );
-//        System.out.println("the mult is = " + mult );
-//        System.out.println("the sub is = " + sub );
-//        System.out.println("the div is = " + div );
-//        System.out.println(("is a bigger than b? ") + (a > b));
-//        System.out.println(a == b);
-//        System.out.println(( a >= b)||( a <= b));
-
-        // Scanner how to use onlu once in top of the code(Scanner s = new Scanner(System.in); s.mothods)
-//        String firstname , middlename , lastname;
-//        int age;
+//        int sum = num1 + num2, sub = num1 - num2, mul = num1 * num2;
+//        double div = num1 / num2, mod = num1 % num2;
 //
-//        System.out.println("Please enter the following:");
-//        System.out.println("Firstname: ");
-//        firstname = s.nextLine();
-//        System.out.println("Middle name: ");
-//        middlename = s.nextLine();
-//        System.out.println("Lastname: ");
-//        lastname = s.nextLine();
-//        System.out.println("How old are you? ");
-//        age = s.nextInt();
-//
-//        String fullname = firstname + " " + middlename + " " + lastname;
-//        System.out.println("Your full name is " + fullname);
-//        System.out.println("your age is " + age);
+//        System.out.println(num1 + " + " + num2 + " = " + sum);
+//        System.out.println(num1 + " - " + num2 + " = " + sub);
+//        System.out.println(num1 + " x " + num2 + " = " + mul);
+//        System.out.println(num1 + " / " + num2 + " = " + div);
+//        System.out.println(num1 + " mod " + num2 + " = " + mod);
 
-        // Conditional statement (if/if-else/if-else-if statement & switch)
-//        System.out.println("Please enter any number ");
+        ////////////////////////////////////////////////////////////////////////////////////
+        //Question 2
+//        String text = "THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG.";
+//        System.out.println(text.toLowerCase());
+
+        /////////////////////////////////////////////////////////////////////////////////////
+        //Question 3
+//        System.out.println("Please enter your sentence:");
+//        String sentence = s.nextLine();
+//        System.out.println("Please enter a number:");
 //        int x = s.nextInt();
-//        if (x>0) {
-//            System.out.println( x +" is positive");
-//        }else if(x<0){
-//            System.out.println( x + " is negative");
+//
+//        System.out.println("The character in index " + x);
+//        System.out.println(sentence.charAt(x));
+
+        /////////////////////////////////////////////////////////////////////////////////////
+        //Question 4
+//        System.out.println("Please enter to see if the number is even or odd:");
+//        int y = s.nextInt();
+//
+//        if (y % 2 == 0 ){
+//            System.out.println("1");
 //        }else{
-//            System.out.println("The number ZERO");
+//            System.out.println("0");
+//        }
+//        System.out.println("if you see 1 that means the number even but if you see 0 that means the number is odd");
+
+        /////////////////////////////////////////////////////////////////////////////////////
+        //Question 5
+//        System.out.println("Please enter you username:");
+//        String name = s.nextLine();
+//
+//        if (name.equals("admin")){
+//            System.out.println("welcome admin");
+//        } else if (name.equals("superuser")) {
+//            System.out.println("welcome superuser");
+//        } else if (name.equals("user")) {
+//            System.out.println("welcome user");
 //        }
 
-//        System.out.println("please enter your username ");
-//        String username = s.nextLine();
+        /////////////////////////////////////////////////////////////////////////////////////
+        //Question 6
+//        System.out.println("test you summation skills by entering two number and guessing the sum of these numbers. ");
+//        System.out.println("Please enter the first number");
+//        int num1 = s.nextInt();
+//        System.out.println("Please enter the second number");
+//        int num2 = s.nextInt();
+//        System.out.println(num1 + " + " + num2 + " = ?");
+//        System.out.println("Please enter your answer");
+//        int ans = s.nextInt();
+//
+//        int sum = num1 + num2;
+//        System.out.println("The result is: " + (sum == ans));
 
-//        System.out.println("Please enter your password ");
-//        String password = s.nextLine();
+        /////////////////////////////////////////////////////////////////////////////////////
+        //Question 7
+//        System.out.println("Please enter the first number");
+//        int num1 = s.nextInt();
+//        System.out.println("Please enter the second number");
+//        int num2 = s.nextInt();
+//        System.out.println("Please enter the third number");
+//        int num3 = s.nextInt();
 //
-//        System.out.println("Hello " + username);
-//
-//        if(password.length()>=8){
-//            System.out.println("your password is strong!!");
-//        }else{
-//            System.out.println("your password is weak! please enter more than 8 characters");
+//        int great = num1;
+//        if(num2 > great){
+//            great = num2;
 //        }
-
-//        String admin = "mohammed";
-//
-//        if (username.equals(admin)){
-//            System.out.println("Welcome");
-//        }else{
-//            System.out.println("Only the admin can enter");
+//        if (num3 > great) {
+//            great = num3;
 //        }
+//        System.out.println("The greatest: " + great);
 
-        // use range and limits
-//        System.out.println("Enter your grade out off 100 ");
-//        int grade = s.nextInt();
+        /////////////////////////////////////////////////////////////////////////////////////
+        //Question 8
+//        System.out.println("Enter a number between 1 and 7: ");
+//        int num = s.nextInt();
 //
-//        if(grade>=90){
-//            System.out.println("You got A");
-//        } else if (grade >=80) {
-//            System.out.println("You got B");
-//        } else if (grade >=70) {
-//            System.out.println("You got C");
-//        } else if (grade >= 60) {
-//            System.out.println("You got D");
-//        }else{
-//            System.out.println("You got F");
+//        String weekday;
+//        switch(num){
+//            case 1:
+//                weekday = "Monday";
+//                break;
+//            case 2:
+//                weekday = "Tuesday";
+//                break;
+//            case 3:
+//                weekday = "Wednesday";
+//                break;
+//            case 4:
+//                weekday = "Thursday";
+//                break;
+//            case 5:
+//                weekday = "Friday";
+//                break;
+//            case 6:
+//                weekday = "Saturday";
+//                break;
+//            case 7:
+//                weekday = "Sunday";
+//                break;
+//            default:
+//                weekday = "Sorry invalid number!!";
+//                break;
 //        }
-        System.out.println("enter 1 to inquire Username");
-        System.out.println("enter 2 to inquire password");
-        System.out.println("enter 3 to inquire email");
-        System.out.println("enter 4 to inquire balance");
-        System.out.println("enter 5 to inquire customer service");
-        int req = s.nextInt();
-
-        switch (req){
-            case 1:
-                System.out.println("your usernaeme is mohammed123");
-                break;
-            case 2:
-                System.out.println("your password is 12341234");
-                break;
-            case 3:
-                System.out.println("your email is mohammed@gmail.com");
-                break;
-            case 4:
-                System.out.println("your balance is 72000");
-                break;
-            case 5:
-                System.out.println("how can i help you");
-                break;
-            default:
-                System.out.println("please enter from the list");
-        }
-
+//            System.out.println(weekday);
 
 
 
